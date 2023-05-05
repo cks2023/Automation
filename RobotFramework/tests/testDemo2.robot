@@ -42,6 +42,7 @@ Fill the login Form
 
 wait until Element is located in the page
     [arguments]     ${element}
+    sleep   10 sec
     Wait Until Element Is Visible       ${element}
 
 
@@ -66,6 +67,7 @@ Select the Card
     ${elements} =  Get WebElements     css:.card-title
     ${index}=   Set Variable    1
      FOR  ${element}  IN      @{elements}
+         Log    ${element.text}
          Exit For Loop If      '${cardName}' == '${element.text}'
          ${index}=  Evaluate   ${index} + 1
      END
@@ -79,7 +81,7 @@ Fill the Login Details and Login Form
     Click Element       css:input[value='user']
     Wait Until Element Is Visible       css:.modal-body
     Click Button        id:okayBtn
-    Click Button        id:okayBtn
+    Run Keyword And Ignore Error    Click Button        id:okayBtn
     Wait Until Element Is Not Visible   css:.modal-body
     Select From List By Value       css:select.form-control       teach
     Select Checkbox     terms

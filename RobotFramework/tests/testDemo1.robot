@@ -14,6 +14,7 @@ Validate UnSuccesful Login
     Fill the login Form
     wait until it checks and display error message
     verify error message is correct
+    verify title
 
 *** Keywords ***
 open the browser with the Mortgage payment url

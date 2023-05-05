@@ -15,4 +15,4 @@ Tests.testDemo6 :: To validate the Login form                         | PASS |
 Tests                                                                 | PASS |
 3 tests, 3 passed, 0 failed
 ==============================================================================
-Output:  /Users/rahulshetty/pythonProjects/RobotFramework/tests/pabot_results/5/output.xml
+Output:  /Users/chandrashekharsingh/Documents/cks_robot/RobotFramework/tests/pabot_results/5/output.xml

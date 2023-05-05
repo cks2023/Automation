@@ -11,4 +11,4 @@ Tests.testDemo1 :: To validate the Login form                         | PASS |
 Tests                                                                 | PASS |
 1 test, 1 passed, 0 failed
 ==============================================================================
-Output:  /Users/rahulshetty/pythonProjects/RobotFramework/tests/pabot_results/0/output.xml
+Output:  /Users/chandrashekharsingh/Documents/cks_robot/RobotFramework/tests/pabot_results/0/output.xml

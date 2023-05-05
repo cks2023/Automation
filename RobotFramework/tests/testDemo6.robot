@@ -3,8 +3,8 @@ Documentation   To validate the Login form
 Library     SeleniumLibrary
 Library     Collections
 Library     ../customLibraries/Shop.py
-Test Setup      open the browser with the url
-Suite Setup
+Test Setup      open the browser with the Mortgage payment url
+Suite Setup     open the browser with the Mortgage payment url
 Suite Teardown
 Test Teardown   Close Browser session
 Resource        ../PO/Generic.robot
@@ -12,6 +12,7 @@ Resource        ../PO/LandingPage.robot
 Resource        ../PO/ShopPage.robot
 Resource        ../PO/CheckoutPage.robot
 Resource        ../PO/ConfirmationPage.robot
+resource
 
 
 *** Variables ***
